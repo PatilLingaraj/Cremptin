@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.cremptin.GenericLib.MyListeners"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.cremptin.Cases.VerifyCasesTab"/>
+      <class name="com.cremptin.Activities.VerifyActivitiesTab"/>
+      <class name="com.cremptin.Products.VerifyProductsTab"/>
+      <class name="com.cremptin.Contacts.VerifyContactsTab"/>
+      <class name="com.cremptin.Campaigns.VerifyCampaignsTab"/>
+      <class name="com.cremptin.Accounts.VerifyAccountCreation"/>
+      <class name="com.cremptin.Dashboards.VerifyDashboardTab"/>
+      <class name="com.cremptin.Accounts.VerifyAccountsTab"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
