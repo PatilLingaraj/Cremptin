@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 
 
 //Written in global repo(Github)
+//Written in local repo(Git)
 public class BaseTest implements IAutoConsts{
 
 	public static WebDriver driver;
